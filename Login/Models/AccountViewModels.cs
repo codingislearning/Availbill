@@ -64,7 +64,6 @@ namespace Login.Models
 
     public class RegisterViewModel
     {
-        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
@@ -79,6 +78,11 @@ namespace Login.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Display(Name = "Mobile Number(10 Digit)")]
+        public string MobileNumber { get; set; }
+
+
     }
 
     public class ResetPasswordViewModel

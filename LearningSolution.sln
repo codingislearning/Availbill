@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{4159DF70-5A09-47A9-8BBB-F12670346F1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{871A1524-8CA0-43DF-B77B-7FCD4510612F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTest", "WebApiTest\WebApiTest.csproj", "{4DD9A9D0-5491-4D5B-A1DA-346506ACD84F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4159DF70-5A09-47A9-8BBB-F12670346F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4159DF70-5A09-47A9-8BBB-F12670346F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4159DF70-5A09-47A9-8BBB-F12670346F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4159DF70-5A09-47A9-8BBB-F12670346F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871A1524-8CA0-43DF-B77B-7FCD4510612F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871A1524-8CA0-43DF-B77B-7FCD4510612F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871A1524-8CA0-43DF-B77B-7FCD4510612F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871A1524-8CA0-43DF-B77B-7FCD4510612F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD9A9D0-5491-4D5B-A1DA-346506ACD84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD9A9D0-5491-4D5B-A1DA-346506ACD84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD9A9D0-5491-4D5B-A1DA-346506ACD84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD9A9D0-5491-4D5B-A1DA-346506ACD84F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
